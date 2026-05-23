@@ -38,21 +38,6 @@ I care deeply about writing clean, scalable code. Whether it's architecting a RE
 
 ## 🚀 Featured Projects
 
-### 🎬 [Video Streaming API](https://github.com/rajkumar0932/video-streaming-api)
-> A production-grade YouTube-clone backend — built from scratch.
-
-A full-featured backend for a video hosting platform with a complete REST API surface covering users, videos, comments, likes, subscriptions, playlists, and a channel analytics dashboard.
-
-**Highlights:**
-- 🔐 Secure auth with JWT (access + refresh tokens) & bcrypt
-- ☁️ Video & thumbnail uploads via Multer + Cloudinary
-- 📊 MongoDB Aggregation Pipelines for watch history & analytics
-- 📱 Social layer: likes, comments, subscriptions, tweets
-
-`Node.js` `Express.js` `MongoDB` `Mongoose` `JWT` `Cloudinary` `Multer`
-
----
-
 ### 🏥 [Prescripto — Doctor Appointment Booking Platform](https://github.com/rajkumar0932/Prescripto---Doctor-Appointment-Booking-Platform)
 > A full-stack healthcare booking system — three apps, one seamless flow.
 
@@ -69,6 +54,21 @@ A production-grade MERN application covering the complete appointment lifecycle:
 `React` `Vite` `Node.js` `Express` `MongoDB` `JWT` `Razorpay` `Cloudinary` `TailwindCSS` `Vercel`
 
 🌐 **Patient App:** [practofrontend-rho.vercel.app](https://practofrontend-rho.vercel.app) &nbsp;|&nbsp; **Admin Panel:** [Live Dashboard](https://prescripto-doctor-appointment-booking-platform-oq1wozejh.vercel.app)
+
+---
+
+### 🎬 [Video Streaming API](https://github.com/rajkumar0932/video-streaming-api)
+> A production-grade YouTube-clone backend — built from scratch.
+
+A full-featured backend for a video hosting platform with a complete REST API surface covering users, videos, comments, likes, subscriptions, playlists, and a channel analytics dashboard.
+
+**Highlights:**
+- 🔐 Secure auth with JWT (access + refresh tokens) & bcrypt
+- ☁️ Video & thumbnail uploads via Multer + Cloudinary
+- 📊 MongoDB Aggregation Pipelines for watch history & analytics
+- 📱 Social layer: likes, comments, subscriptions, tweets
+
+`Node.js` `Express.js` `MongoDB` `Mongoose` `JWT` `Cloudinary` `Multer`
 
 ---
 
@@ -116,12 +116,21 @@ A production-grade MERN application covering the complete appointment lifecycle:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rajkumar0932&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajkumar0932&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=rajkumar0932&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" height="180"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajkumar0932&theme=tokyonight&hide_border=true&layout=compact&langs_count=8&count_private=true" height="180"/>
 
-<br/>
+</div>
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=rajkumar0932&theme=tokyonight&hide_border=true" height="165"/>
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=rajkumar0932&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="180"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rajkumar0932&theme=tokyonight" width="100%"/>
 
 </div>
 
@@ -131,7 +140,7 @@ A production-grade MERN application covering the complete appointment lifecycle:
 
 <div align="center">
 
-![](https://github-profile-trophy.vercel.app/?username=rajkumar0932&theme=tokyonight&no-frame=true&no-bg=true&column=7)
+<img src="https://github-profile-trophy.vercel.app/?username=rajkumar0932&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4"/>
 
 </div>
 
@@ -141,7 +150,7 @@ A production-grade MERN application covering the complete appointment lifecycle:
 
 <div align="center">
 
-[![Raj's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=rajkumar0932&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rajkumar0932&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
 
 </div>
 
