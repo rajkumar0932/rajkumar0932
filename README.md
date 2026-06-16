@@ -38,19 +38,20 @@ I care deeply about writing clean, scalable code. Whether it's architecting real
 
 ## 🚀 Featured Projects
 
-### ⚔️ [AlgoBattle — Real-time 1v1 Competitive Coding Arena](https://github.com/rajkumar0932/AlgoBattle)
+### ⚔️ [AlgoBattle — Real-time 1v1 Competitive Coding Arena](https://github.com/rajkumar0932/ALGO_BATTLE_ARENA)
 > Get matched, solve the same problem, race to submit. Climb the ELO leaderboard.
 
-A competitive programming platform where players are paired by ELO and battle live over the same algorithmic challenge. Features AI bot opponents across 6 difficulty tiers (Beginner → Grandmaster), private rooms with shareable codes, a sandboxed code judge engine, and a global ELO leaderboard.
+A competitive programming platform where two players are paired via a Redis matchmaking queue, receive the same algorithmically-selected problem based on their average ELO, and race to submit a correct solution. The judge runs submitted code against hidden test cases stored in PostgreSQL and returns a real verdict.
 
 **Highlights:**
-- ⚡ Live 1v1 matchmaking via Socket.io — ELO-based pairing with expanding search window
-- 🤖 AI bots powered by Groq — 6 tiers, each with human-like solve times and deliberate mistake patterns
-- 🏛️ Sandboxed judge engine — runs submitted code against 25 hidden test cases in isolated child processes
-- 📊 True ELO rating system — K-factor adjusts by rating tier; upsets rewarded more
-- 🏗️ Turborepo monorepo — `apps/web` (Next.js), `apps/socket-server`, `packages/db`, `packages/judge`, `packages/types`
+- ⚡ Live 1v1 matchmaking via Socket.IO — Redis queue with same-user guard and disconnect cleanup
+- 🏛️ Real judge engine — wraps user code with hidden test cases, executes via self-hosted Piston API in Docker, parses stdout for verdict
+- 📊 ELO rating system — dynamic point gain based on rating differential, updates PostgreSQL after each battle
+- 🎯 Difficulty-aware problem selection — easy/medium/hard chosen by average rating of both players, fetched randomly from DB
+- 🔐 JWT auth with access + refresh token rotation, bcrypt with timing attack protection
+- 🏗️ Turborepo monorepo — `frontend` (Vite + React), `backend` (Express + Socket.IO), `packages/types`
 
-`Next.js 14` `TypeScript` `Socket.io` `PostgreSQL` `Prisma` `Redis` `Groq API` `Turborepo` `pnpm` `Docker`
+`TypeScript` `Socket.IO` `PostgreSQL` `Redis` `Express` `Docker` `Piston API` `Turborepo` `pnpm`
 
 ---
 
@@ -99,7 +100,6 @@ A full-stack developer hub that aggregates stats from LeetCode, Codeforces, and 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=Prisma&logoColor=white)
 
 ### AI & Workers
 ![Groq](https://img.shields.io/badge/Groq_API-F55036?style=flat-square)
