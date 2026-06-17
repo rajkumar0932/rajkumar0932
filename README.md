@@ -45,31 +45,33 @@ A competitive programming platform where two players are paired via a Redis matc
 
 **Highlights:**
 - ⚡ Live 1v1 matchmaking via Socket.IO — Redis queue with same-user guard and disconnect cleanup
-- 🏛️ Real judge engine — wraps user code with hidden test cases, executes via self-hosted Piston API in Docker, parses stdout for verdict
+- 🏛️ Real judge engine — wraps user code with hidden test cases, executes via self-hosted Piston API on AWS EC2, parses stdout for verdict
 - 📊 ELO rating system — dynamic point gain based on rating differential, updates PostgreSQL after each battle
 - 🎯 Difficulty-aware problem selection — easy/medium/hard chosen by average rating of both players, fetched randomly from DB
 - 🔐 JWT auth with access + refresh token rotation, bcrypt with timing attack protection
-- 🏗️ Turborepo monorepo — `frontend` (Vite + React), `backend` (Express + Socket.IO), `packages/types`
+- 🚪 Private rooms via Redis-stored UUID codes, 10-second disconnect forfeit with reconnect grace timer
 
-`TypeScript` `Socket.IO` `PostgreSQL` `Redis` `Express` `Docker` `Piston API` `Turborepo` `pnpm`
+`TypeScript` `Socket.IO` `PostgreSQL` `Redis` `Express` `Docker` `Piston API` `AWS EC2` `Turborepo` `pnpm`
+
+🌐 **Live Demo:** [algo-battle-arena-frontend.vercel.app](https://algo-battle-arena-frontend.vercel.app)
 
 ---
 
-### 📊 [StudentOS 2.0 — Unified Developer Portfolio & AI Coach](https://github.com/rajkumar0932/StudentOS-2.0)
-> One dashboard for all your competitive programming stats — with an AI coach that knows your level.
+### 🏥 [Prescripto — Doctor Appointment Booking Platform](https://github.com/rajkumar0932/Prescripto---Doctor-Appointment-Booking-Platform)
+> Book appointments, manage slots, process payments — for patients, doctors, and admins.
 
-A full-stack developer hub that aggregates stats from LeetCode, Codeforces, and GitHub into a single glassmorphism dashboard. Context-aware AI coaching powered by Llama 3.3 70B (Groq), social leaderboards with friend comparisons, achievement badges, streak tracking, and BullMQ background sync workers for periodic data refresh.
+A three-panel full-stack platform with separate dashboards for Patients, Doctors, and Admins. Features appointment booking with slot management, Razorpay payment integration, doctor verification, and profile management with image uploads.
 
 **Highlights:**
-- 📈 Multi-platform analytics — rating curves, coding heatmaps, unified activity feed
-- 🤖 Context-aware AI coach — prompt injection of your actual ratings/weak tags for personalized advice
-- 👥 Social leaderboards — add friends by handle, compare metrics, earn milestone badges (Common → Legendary)
-- ⚙️ BullMQ + Redis workers — background periodic sync of stats without blocking the API
-- 🔐 JWT auth with access + refresh token rotation
+- 🗓️ Three-panel system — Patient booking flow, Doctor slot management, Admin verification dashboard
+- 💳 Razorpay payment gateway — online appointment payments with order creation and verification
+- 📁 Multer + Cloudinary pipeline — doctor profile image uploads with cloud storage
+- 🔐 JWT auth with bcrypt hashing — separate auth flows for patients, doctors, and admins
+- 🛠️ 30+ RESTful APIs — appointments, profiles, slots, fee management, and admin controls
 
-`React` `Vite` `TailwindCSS` `Node.js` `Express.js` `MongoDB` `Redis` `BullMQ` `Groq API` `Framer Motion` `Recharts`
+`Node.js` `Express.js` `MongoDB` `Mongoose` `JWT` `Razorpay` `Cloudinary` `Multer` `bcrypt`
 
-🌐 **Live Demo:** [student-os-2-0.vercel.app](https://student-os-2-0.vercel.app)
+🌐 **Live Demo:** [practofrontend-rho.vercel.app](https://practofrontend-rho.vercel.app)
 
 ---
 
@@ -77,6 +79,7 @@ A full-stack developer hub that aggregates stats from LeetCode, Codeforces, and 
 
 ### Languages
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -101,11 +104,8 @@ A full-stack developer hub that aggregates stats from LeetCode, Codeforces, and 
 ![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-### AI & Workers
-![Groq](https://img.shields.io/badge/Groq_API-F55036?style=flat-square)
-![BullMQ](https://img.shields.io/badge/BullMQ-DC382D?style=flat-square&logo=redis&logoColor=white)
-
 ### Cloud & DevOps
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 ![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat-square&logo=Firebase&logoColor=white)
