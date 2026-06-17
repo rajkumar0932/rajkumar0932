@@ -14,6 +14,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raj-kumar-gupta-413204272)
 [![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/u/kumarraj0932/)
 [![Codeforces](https://img.shields.io/badge/Codeforces-%231F8ACB.svg?style=for-the-badge&logo=Codeforces&logoColor=white)](https://codeforces.com/profile/Raj_Gupta_)
+[![CodeChef](https://img.shields.io/badge/CodeChef-%23B92B27.svg?style=for-the-badge&logo=CodeChef&logoColor=white)](https://www.codechef.com/users/raj_kr_gupta85)
 [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/RajKuma87824042)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kumarraj0932@gmail.com)
 
@@ -121,6 +122,7 @@ A three-panel full-stack platform with separate dashboards for Patients, Doctors
 |:---:|:---:|:---:|
 | 🟦 Codeforces | [Raj_Gupta_](https://codeforces.com/profile/Raj_Gupta_) | **Specialist** |
 | 🟨 LeetCode | [kumarraj0932](https://leetcode.com/u/kumarraj0932/) | **Knight** |
+| 🟥 CodeChef | [raj_kr_gupta85](https://www.codechef.com/users/raj_kr_gupta85) | **3★ (1637)** |
 
 > 🧠 **1500+ problems solved** across platforms — consistent problem-setter with a focus on graphs, dynamic programming, and data structures.
 
